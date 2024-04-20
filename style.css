@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins" , sans-serif;
+
+}
+.main {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+.left {
+    width: 20%;
+    height: 100vh;
+    background-color: #1E1F20;
+}
+.right {
+    width: 80%;
+    height: 100vh;
+    background-color: #131314;
+}
+.contentinsideleft {
+    padding: 1.9vw;
+    color: white;
+}
+.contentinsideleft .newchat {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #131314;
+    width: 150px;
+    height: 40px;
+    /* border: 2px solid white; */
+    border-radius: 40px;
+    margin-top: 70px;
+    position: relative;
+    right: 5px;
+    font-size: 15px;
+    color: #a2a5a7;
+}
+.newchat i {
+    position: relative;
+    right: 10px;
+}
+.recent {
+    font-size: 15px;
+    font-weight: 500;
+    margin-top: 28px;
+}
+.upgrade {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 250px;
+    height: 40px;
+    /* border: 2px solid white; */
+    background-color: #47494A;
+    border-radius: 15px;
+    position: relative;
+    right: 18px;
+}
+.upgrade img {
+    margin-right: 15px;
+}
+.upgrade span {
+    font-size: 13px;
+}
+.down ul {
+    position: relative;
+    left: 20px;
+    color: #47494A;
+}
+.down ul li span {
+    color: white;
+    font-size: 12px;
+}
+.down {
+    margin-top: 250px;
+}
+.down div {
+    margin-bottom: 20px;
+}
+.down div i {
+    margin-right: 10px;
+}
+.down div:hover {
+    background-color: #47494A;
+    padding: 5px;
+    border-radius: 20px;
+}
+.right {
+    color: white;
+    padding: 20px;
+    font-size: 19px;
+}
+.right .top {
+    display: flex;
+    justify-content: space-between;
+}
+.middle {
+    position: relative;
+    left: 140px;
+    top: 55px;
+    z-index: 3;
+}
+.middle .gradienttext {
+    font-size: 50px;
+    font-weight: 500;
+    background: linear-gradient(135deg, purple, blue, orange);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.middle .textaftergrad {
+    font-size: 50px;
+    font-weight: 500;
+    color: #47494A;
+    position: relative;
+    bottom: 30px;
+}
+.cards {
+    display: flex;
+    gap: 10px;
+    position: relative;
+    top: 25px;
+}
+.card1 , .card2 , .card3 , .card4 {
+    width: 200px;
+    height: 200px;
+    background-color: #1E1F20;
+    border-radius: 8px;
+    font-size: 16px;
+}
+.card1 .contentcard1 , .card2 .contentcard2 , .card3 .contentcard3 , .card4 .contentcard4 {
+    padding: 11px;
+}
+.contentcard1 i {
+    font-size: 20px;
+    position: relative;
+    top: 80px;
+    left: 100px;
+}
+.contentcard2 i {
+    font-size: 20px;
+    position:relative;
+    top: 126px;
+}
+.contentcard3 span i {
+   margin-right: 6px;
+   position: relative;
+   top: 100px;
+   left: 40px;
+}
+.contentcard4 i {
+    font-size: 20px;
+    position: relative;
+    top: 100px;
+    left: 4px;
+}
+.card1:hover{
+    background-color: #47494A;
+}
+.card2:hover {
+    background-color: #47494A;
+}
+.card3:hover {
+    background-color: #47494A
+}
+.card4:hover {
+    background-color: #47494A;
+}
+.bottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 70%;
+    height: 50px;
+    position: relative;
+    top: 250px;
+    left: 140px;
+    background-color: #1E1F20;
+    border-radius: 20px;
+}
+.bottom input {
+    margin: 20px;
+    background-color: #1E1F20;
+    border: none;
+    width: 80%;
+    outline: none;
+    color: white;
+}
+.bottom input::placeholder {
+    color: slategrey;
+    font-size: 17px;
+}
+.bottom .othericonsbottom {
+    margin-right: 20px;
+}
+.bottom .othericonsbottom i {
+    margin: 15px;
+}
+.responseContainer {
+    width: 800px;
+    height: 500px;
+
+    position: relative;
+    left: 10vw;
+    bottom: 22vw;
+    background-color: #47494A;
+    display: none;
+}
